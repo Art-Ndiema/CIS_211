@@ -38,3 +38,20 @@ opacity: 0.7;
 .break-point::before { 
 content: "hiddentext"; 
 font-size: 0; 
+ display: block; 
+line-height: 0; 
+} 
+.break-point::after { 
+content: "hiddentext"; 
+font-size: 0; 
+display: block; 
+line-height: 0; 
+} 
+.container { 
+padding: 25px; 
+background-color: lightblue; 
+} 
+h1 { 
+
+text-align: center; 
+} 
