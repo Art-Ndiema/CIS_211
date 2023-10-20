@@ -1,12 +1,12 @@
 Body { 
 font-family: Calibri, Helvetica, sans-serif; 
-background-color: pink; 
+background-color: teal; 
 
 } 
 button { 
-background-color: #4CAF50; 
+background-color: #4c63af; 
 width: auto; 
-color: orange; 
+color: rgb(59, 199, 141); 
 padding: 10px; 
 margin: 10px 10px; 
 border: none; 
@@ -15,7 +15,7 @@ position: relative;
 
 } 
 form { 
-border: 3px solid #f1f1f1; 
+border: 3px solid #88b6c9; 
 
 } 
 input[type=text], input[type=password] { 
@@ -23,7 +23,7 @@ width: 50%;
 margin: 8px 0; 
 padding: 12px 20px; 
 display: inline-block; 
-border: 2px solid green; 
+border: 2px solid rgb(0, 9, 128); 
 box-sizing: border-box ; 
 position: relative; 
 align-self: center; 

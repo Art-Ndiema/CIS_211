@@ -11,13 +11,14 @@
 require "dbconnect.php"; 
 
 //pick data from the user 
-$firstname = $_REQUEST['first_name']; 
-$lastname = $_REQUEST['last_name'] ; 
+$name = $_REQUEST['name']; 
+$admission = $_REQUEST['admission'] ; 
 $gender = $_REQUEST['gender']; 
 $address = $_REQUEST['address'] ; 
-
+$borrowed = $_REQUEST['borrowed'] ;
+$returned = $_REQUEST['returned'] ;
 //insert data picked into the table 
-$sql = "insert into staff values('$firstname', '$lastname', '$gender', '$address')"; 
+$sql = "insert into staff values('$name', '$admission', '$gender', '$address','$borrowed', '$returned')"; 
 
 if($conn -> query($sql) === true) { 
 echo " records inserted" ; 
